@@ -1,1 +1,7 @@
-luban is good man 2
+分支切换 			        git checkout master
+根据远程分支创建本地分支并与之关联		git checkout -b feature/add_git_commands origin/feature/add_git_commands
+合并远程分支 		                git merge --allow-unrelated-histories  github/master
+push到远程分支 		                git push github master
+设置local变量   	                        git config --add --local user.name 'a974389757'
+从本地仓库恢复暂存区                      git reset HEAD readme.txt
+从暂存区恢复工作区                        git checkout -- file
